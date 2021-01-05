@@ -204,7 +204,7 @@ WAXG Tokens can be obtained by the Liquidity Pool providers who (1) provided liq
 
 Staking Epoch is a mechanism in WEAP that introduces a minimum period of time that Liquidity Pool WAXE-ETH Tokens must be staked in the WEAP to be eligible for both WAXG emission and Distribution Pool rewards. Similar mechanism has been used by [Kyber DeFi](https://kyber.org/vote) for example to ensure that there is a strong incentive for tokens to be staked in order to be eligible for voting or other rewards. We model our Staking Epoch implementation in a similar way, as we believe staking for a period of time is beneficial to WAX DeFi as it will minimize unnecessary unstaking/withdrawals of WAXE-ETH from WEAP.
 
-WAX DeFi Staking Epoch is defined as **a 2 week period** and it should be enforced by calculating the beginning block height and ending block height. Assuming 15 second average block time; there are 5,760 blocks in one day, and 80,640 blocks in 2 weeks. WAX DeFi Staking Epoch should last 80,640 blocks.
+WAX DeFi Staking Epoch is defined as **a 2 week period**. Every new epoch starts every two weeks on Wednesdays 10:00 am PST with the **first** epoch starting on Wednesday, December 22nd 2020 at 10:00 am PST and the **second** staking epoch starting on Wednesday, January 6th 2021 at 10:00 am PST and so forth.
 
 **WAXG Emission Requirements:**
 
