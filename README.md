@@ -11,7 +11,7 @@ _Below are the details of the implementation including a summary of the new toke
 *   **_WAX Blockchain: a purpose-built blockchain that uses Delegated Proof of Stake (DPoS) as its consensus mechanism, designed to make NFT transactions faster, easier, and safer for all participants_**
 *   **_WAX NFT: a [non-fungible token](https://medium.com/wax-io/the-beginners-guide-to-nfts-and-how-to-get-them-on-wax-8c377f008f0e) that trades on the WAX Blockchain_**
 *   **_WAX Cloud Wallet: the WAX Blockchain’s native wallet that stores WAXP Tokens and WAX NFTs. Accounts can be created in just two clicks_**
-*   **_WAX Network Fees: fees collected by [WAX-powered secondary markets](https://www.dapp.com/dapps/wax-marketplace?sort=0&time=0&type=0) on sales of NFTs, currently 8%_**
+*   **_WAX Network Fees: 2% fees collected by [WAX-powered secondary markets](https://www.dapp.com/dapps/wax-marketplace?sort=0&time=0&type=0) on sales of NFTs_**
 *   **_WAXP to Ethereum bridge: a new bridge that will enable WAXP token holders to convert their tokens into WAXE._**
 *   **_WAXE: a new Ethereum ERC20 utility token. A WAX Token holder wanting to participate in the WAX tokenomics will burn their WAXP tokens to receive WAXE (using the Ethereum bridge) and then deposit WAXE and ETH into WAXE-ETH Liquidity Pool._**
 *   **_WAXE-ETH Liquidity Pool: a liquidity pool for the WAXE-ETH trading pair. Those who deposit a combination of WAXE and ETH into the liquidity pool will earn the WAXE-ETH Liquidity Pool token._**
