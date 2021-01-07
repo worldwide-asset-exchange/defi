@@ -217,7 +217,7 @@ WAXG emission should be based on the following algorithm:
 
 ## 7. How is WAXP Burn Implemented?
 
-WAXP tokens that are scheduled for burn are first deposited into escrow [burn.wax account] (https://wax.bloks.io/account/burn.wax). The burn process is executed at the begininng of every wax staking epoch; all token(s) balances (s) on [burn.wax account] (https://wax.bloks.io/account/burn.wax) account are then destroyed reducing token's total and circulating supply. This mechanism introduces a deflationary mechanism into the wax blockchain tokenomics model.
+WAXP tokens that are scheduled for burn are first deposited into escrow [burn.wax account](https://wax.bloks.io/account/burn.wax). The burn process is executed at the begininng of every wax staking epoch; all token(s) balances (s) on [burn.wax account] (https://wax.bloks.io/account/burn.wax) account are then destroyed reducing token's total and circulating supply. This mechanism introduces a deflationary mechanism into the wax blockchain tokenomics model.
 
 There are two sources of WAXP Token burn:
 1. WAX DeFi Governance determines the portion of the WAX Network Fees collected that need to be burnt before its conversion to WAXE tokens and allocation into the **WAX Economic Activity Pool (WEAP)**. Currently 20% of all WAX Network Fees collected are designated for token burn; this percentage maybe adjusted in the future by WAXG Token holders through WAX DeFi Governance voting process.
