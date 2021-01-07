@@ -109,7 +109,7 @@ WAXE Tokens are created in two ways:
 
 
 
-1. **Economic Activity Swap:** When WAX NFTs are bought and sold on WAX-powered secondary markets, these transactions collect network fees of 8% in the form of WAXP Tokens. Of that 8%, 25% of it (or 2% of each transaction) is collected for Economic Activity Fees. Of the total number of WAXP Tokens collected for Economic Activity Fees:
+1. **Economic Activity Swap:** When WAX NFTs are bought and sold on WAX-powered secondary markets, these transactions collect network fees of 2% in the form of WAXP Tokens. Of the total number of WAXP Tokens collected for Economic Activity Fees:
 *   20% of the WAXP Tokens will be burned creating a **deflationary tokenomics mechanism** on the WAX Blockchain.
 *   80% of the WAXP Tokens will be swapped for WAXE Tokens at a ratio of 1000 WAXP to 1 WAXE. These WAXE Tokens are then funneled into the **WAX Economic Activity Pool (WEAP)**. 
 
@@ -215,14 +215,21 @@ WAXG emission should be based on the following algorithm:
 3. Once WAXG distribution is triggered, then 48076.92307692 (10 million supply / 104 emission periods * 50% - supply will be locked for the WAX Foundation) WAXG should be proportionality distributed to all WAXE-ETH stakers.
 4. Staking of multiple Liquidity Pool Tokens may be allowed in the future, as it is very likely that we will be adding additional Liquidity Pools. Each Liquidity Pool Token pair may receive a specific weight to be able to tailor the distribution between the Liquidity Pool Tokens, based on the Liquidity that each pool provides into the overall WAX DeFi ecosystem.
 
+## 7. How is WAXP Burn Implemented?
 
-## 7. WEAP Rewards vs. GBM Rewards
+WAXP tokens that are scheduled for burn are first deposited into escrow [burn.wax account] (https://wax.bloks.io/account/burn.wax). The burn process is executed at the begininng of every wax staking epoch; all token(s) balances (s) on [burn.wax account] (https://wax.bloks.io/account/burn.wax) account are then destroyed reducing token's total and circulating supply. This mechanism introduces a deflationary mechanism into the wax blockchain tokenomics model.
+
+There are two sources of WAXP Token burn:
+1. WAX DeFi Governance determines the portion of the WAX Network Fees collected that need to be burnt before its conversion to WAXE tokens and allocation into the **WAX Economic Activity Pool (WEAP)**. Currently 20% of all WAX Network Fees collected are designated for token burn; this percentage maybe adjusted in the future by WAXG Token holders through WAX DeFi Governance voting process.
+2. WAX ETH Bridge: All WAXP tokens being converted via WAX ETH Bridge to WAXE are scheduled for token burn.
+
+## 8. WEAP Rewards vs. GBM Rewards
 
 Members of the [Genesis Block Member program](https://wax.io/blog/introducing-the-genesis-block-member-program-join-and-receive-daily-token-rewards-for-3-years) enjoy GBM rewards, earning 33% of their initial staked tokens per year. This rewards mechanism will expire in June 2022.
 
 If GBM members wish to participate in the WEAP Rewards system, they’ll need to unstake their GBM tokens and swap them for WAXE Tokens.
 
-## 8. Timeline: DeFi & Tokenomics on WAX
+## 9. Timeline: DeFi & Tokenomics on WAX
 
 **December 2020:**
 
