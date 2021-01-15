@@ -4,7 +4,7 @@ _WAX has created a new tokenomic model that marries the explosive growth of NFTs
 
 _Below are the details of the implementation including a summary of the new tokens, token mechanics, distribution, governance, and more. **This is a technical document.** For a summary of the steps required to participate in the WAX DeFi model, click [here](https://wax.io/blog/wax-tokenomics-defi-is-now-live-heres-how-to-participate)._
 
-**_Definitions:_** of WAXG Tokens every two weeks
+**_Definitions:_**
 
 
 
@@ -17,7 +17,7 @@ _Below are the details of the implementation including a summary of the new toke
 *   **_WAXE-ETH Liquidity Pool: a liquidity pool for the WAXE-ETH trading pair. Those who deposit a combination of WAXE and ETH into the liquidity pool will earn the WAXE-ETH Liquidity Pool token._**
 *   **_WAXE-ETH Liquidity Pool token: the ERC20 token that’s received when depositing WAXE and ETH into the Liquidity Pool. The Liquidity Pool token can be staked in the WAX Economic Activity Pool to earn two types of rewards: WAXG and ETH._**
 *   **_WAXG: a new Ethereum ERC20 Governance Token. WAXG will be given to those who stake their WAXE-ETH in the WAX Economic Activity Pool. You can then do one of two things with your WAXG: burn WAXG and receive ETH from the PiggyBank pool in exchange, or vote with them to adjust Governance parameters._**
-*   **_WAX Economic Activity Pool smart contract on Ethereum: this smart contract will govern two different economic activity pools._**
+*   **_WAX Economic Activity Pool smart contract on Ethereum (WEAP): this smart contract will govern two different economic activity pools, PiggyBank and Distribution Pools, as well as, rewards distributions and WAX DeFi Governance._**
 
 DeFi and Tokenomics on the WAX Blockchain: WAXE & WAXG Token Mechanics
 
