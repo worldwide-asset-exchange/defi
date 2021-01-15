@@ -19,7 +19,7 @@ _Below are the details of the implementation including a summary of the new toke
 *   **_WAXG: a new Ethereum ERC20 Governance Token. WAXG will be given to those who stake their WAXE-ETH in the WAX Economic Activity Pool. You can then do one of two things with your WAXG: burn WAXG and receive ETH from the PiggyBank pool in exchange, or vote with them to adjust Governance parameters._**
 *   **_WAX Economic Activity Pool smart contract on Ethereum (WEAP): this smart contract will govern two different economic activity pools, PiggyBank and Distribution Pools, as well as, rewards distributions and WAX DeFi Governance._**
 
-DeFi and Tokenomics on the WAX Blockchain: WAXE & WAXG Token Mechanics
+## DeFi and Tokenomics on the WAX Blockchain: WAXE & WAXG Token Mechanics
 
 **We want all Worldwide Asset eXchange™ participants to benefit from the economic activity taking place on the WAX Blockchain.**
 
