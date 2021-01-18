@@ -136,7 +136,7 @@ Operations on Ethereum require gas fees. Users will pay the gas fees required to
 *   Staking WAXE-ETH into the WAX Economic Activity Pool
 *   Claiming rewards 
 
-## 3. How is WAX Blockchain economic activity distributed?
+## 3. How is WAX Blockchain economic activity fee distributed?
 WAX Blockchain economic activity, captured as WAXP in the Economic Activity Accumulator, is converted to WAXE Tokens (drawn from the total supply) and will be distributed in the form of Ethereum to WEAP participants. Within the WEAP, there will be two different smart contracts:
 
 *   **Distribution Contract:** the percentage of the WAXE Tokens in the WEAP (initially 50%) that will be converted to ETH for distribution to Liquidity Pool WAXE-ETH Token Holders who stake their WAXE-ETH Tokens in the WEAP. 
@@ -154,8 +154,7 @@ WAXG Token holders will be able to vote on the following parameters of the WEAP:
 
 ## 4. What is the WAX-ETH Liquidity Pool?
 
-A liquidity pool for the WAXE-ETH trading pair. Those who deposit a combination of WAXE and ETH into the liquidity pool will earn the WAXE-ETH Liquidity Pool token. The same value of WAXE and ETH tokens is deposited into the WAXE-ETH Liquidity Pool (i.e.: $100 worth of WAXE and $100 worth of ETH).
-
+A liquidity pool for the WAXE-ETH trading pair. Those who deposit a combination of WAXE and ETH into the liquidity pool will earn the WAXE-ETH Liquidity Pool tokens. For example, if you would like to supply $1000 to the WAXE-ETH pool, you would need $500 WAXE and $500 ETH, plus some extra ETH to cover gas costs.
 
 ## 5. What is the WAX Economic Activity Accumulator?
 
@@ -169,7 +168,7 @@ We envision that over time the following economic activity accumulators will exi
 2. **Ethereum Bridge Economic Activity Accumulator:** accumulating all withdrawal fees collected when WAX-wrapped ERC20 altcoins are moved from the WAX Blockchain to Ethereum. 
 3. **DEX Economic Activity Accumulator:** accumulating all exchange fees resulting from microtransactions of WAX-wrapped ERC20 altcoins taking place on the WAX Blockchain’s decentralized exchanges.
 
-Other Economic Activity Accumulators will likely be developed as the WAX Blockchain ecosystem matures and new business opportunities emerge. All accumulated fees will be funneled into WAX Economic Activity Pools on Ethereum by exchanging WAXP for WAXE tokens with 1:1000 ratio (as described above). A portion of all economic activity accumulated will be burned before the transfer in accordance with the governance rules voted on by WAXG Token holders.
+Other Economic Activity Accumulators will likely be developed as the WAX Blockchain ecosystem matures and new business opportunities emerge. All accumulated fees will be funneled into WAX Economic Activity Pools on Ethereum by exchanging WAXP for WAXE tokens with 1000:1 ratio (as described above). A portion of all economic activity accumulated will be burned before the transfer in accordance with the governance rules voted on by WAXG Token holders.
 
 ## 6. What is the WAX Economic Activity Pool (WEAP)? 
 
@@ -187,8 +186,6 @@ Other Economic Activity Accumulators will likely be developed as the WAX Blockch
 
 
 ### WAX Economic Activity Pool (WEAP): Requirements
-
-The following diagram shows how the WAX Economic Activity Pool smart contract on Ethereum fits into the overall WAX DeFi system.
 
 WAX Economic Activity Pool (WEAP) smart contract is an integral part of the WAX DeFi implementation. It facilitates collection of WAX Economic Activity Fees collected on the WAX Blockchain as WAXP utility tokens and then emitted to Ethereum via the WAX to Ethereum Bridge while being converted to ERC20 WAXE with 1000:1 ratio (1000 WAXP = 1 WAXE).
 
