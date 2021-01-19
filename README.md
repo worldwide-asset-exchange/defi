@@ -137,7 +137,7 @@ Operations on Ethereum require gas fees. Users will pay the gas fees required to
 *   Claiming rewards 
 
 ## 3. How is WAX Blockchain economic activity fee distributed?
-WAX Blockchain economic activity, captured as WAXP in the Economic Activity Accumulator, is converted to WAXE Tokens (drawn from the total supply) and will be distributed in the form of Ethereum to WEAP participants. Within the WEAP, there will be two different smart contracts:
+WAX Blockchain economic activity fee, captured as WAXP in the Economic Activity Accumulator, is converted to WAXE Tokens (drawn from the total supply) and will be distributed in the form of Ethereum to WEAP participants. Within the WEAP, there will be two different smart contracts:
 
 *   **Distribution Contract:** the percentage of the WAXE Tokens in the WEAP (initially 50%) that will be converted to ETH for distribution to Liquidity Pool WAXE-ETH Token Holders who stake their WAXE-ETH Tokens in the WEAP. 
 *   **PiggyBank Contract:** the percentage of the WAXE Tokens in the WEAP PiggyBank Pool (initially 50%) that will be perpetually converted to ETH for distribution to WAXG Token holders who choose to burn their WAXG Tokens in the WEAP Smart Contract.
