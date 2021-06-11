@@ -201,16 +201,16 @@ WAXG Tokens can be obtained by the Liquidity Pool providers who (1) provided liq
 
 Staking Epoch is a mechanism in WEAP that introduces a minimum period of time that Liquidity Pool WAXE-ETH Tokens must be staked in the WEAP to be eligible for both WAXG emission and Distribution Pool rewards. Similar mechanism has been used by [Kyber DeFi](https://kyber.org/vote) for example to ensure that there is a strong incentive for tokens to be staked in order to be eligible for voting or other rewards. We model our Staking Epoch implementation in a similar way, as we believe staking for a period of time is beneficial to WAX DeFi as it will minimize unnecessary unstaking/withdrawals of WAXE-ETH from WEAP.
 
-WAX DeFi Staking Epoch is defined as **a 2 week period**. Every new epoch starts every two weeks on Wednesdays 10:00 am PST with the **first** epoch starting on Wednesday, December 22nd 2020 at 10:00 am PST and the **second** staking epoch starting on Wednesday, January 6th 2021 at 10:00 am PST and so forth.
+WAX DeFi Staking Epoch is defined as **a 4 week period**. Every new epoch starts every two weeks on Wednesdays 10:00 am PST with the **first** epoch starting on Wednesday, December 22nd 2020 at 10:00 am PST.
 
 **WAXG Emission Requirements:**
 
 WAXG emission should be based on the following algorithm:
 
 1. In order to be eligible for staking rewards one must deposit WAXE-ETH Tokens before the beginning of the Staking Epoch. Deposits made during a Staking Epoch will be eligible for distribution in the next Staking Epoch. No partial staking rewards will be given; stakers must keep their WAXE-ETH staked for the full duration of the Staking Epoch to be eligible for WAXG emission.
-2. WAXG emission should be based on a four year timeline (208 weeks). Since the Staking Epoch is roughly 2 weeks, there should be 104 WAXG emission events.
+2. WAXG emission should be based on a four year timeline (208 weeks). Since the Staking Epoch is roughly 4 weeks, there should be 52 WAXG emission events.
 3. WAXG emission events should only be triggered if the price of WAXE stayed the same or increased in any given staking epoch. If the price of WAXE as of the last staking epoch block is lower than the price of WAXE as of the first block in the staking epoch then no WAXG distribution should take place.
-4. Once WAXG distribution is triggered, then 48076.92307692 (10 million supply / 104 emission periods * 50% - supply will be locked for the WAX Foundation) WAXG should be proportionality distributed to all WAXE-ETH stakers.
+4. Once WAXG distribution is triggered, then 96153.84615384 (10 million supply / 52 emission periods * 50% - supply will be locked for the WAX Foundation) WAXG should be proportionality distributed to all WAXE-ETH stakers.
 5. Additional Liquidity Pools supporting other currencies in addition to ETH maybe supported in the future. If new Liquidity Pools are introduced then each may receive a specific weight to be able to tailor the distribution between the different Liquidity Pool Tokens staked. This weight maybe based on the Liquidity percentage that each new Liquidity Pool provides into the overall WAX DeFi ecosystem.
 
 ## 7. How is WAXP Burn Implemented?
